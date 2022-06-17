@@ -1,0 +1,36 @@
+{
+  "name": "clipspec-loadtesting",
+  "version": "1.0.0",
+  "description": "Flood Element test script",
+  "private": true,
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100,
+    "useTabs": true,
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "@flood/element": "^1.3.2",
+    "@flood/element-cli": "^1.3.2",
+    "@types/node": "^14.11.2",
+    "assert": "^2.0.0",
+    "element-cli": "^1.5.1",
+    "faker": "*",
+    "prettier": "*",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/assert": "*",
+    "@types/faker": "*"
+  },
+  "element": {
+    "testMatch": [
+      "**/*.perf.[tj]s"
+    ]
+  }
+}
